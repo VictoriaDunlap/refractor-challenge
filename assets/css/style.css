@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Navigation Bar background */
+header {
+    list-style-type: none;
+    background-color: #2a607c;
+    padding: 30px 0;
+}
+
+/* Header "Horiseon" */
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    font-size: 48px;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+/* Horizontal List elements */
+nav {
+    padding: 10px 0;
+    margin-right: 20px;
+    margin-left: 25px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+/* Horizontal List text elements */
+li {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/* Horizontal List color and underline */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* First image on page */
+.starterImage {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Size of blocks in body, not including the aside */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Paragraph text size */
+.summary {
+    padding: 50px;
+    font-size: 32px;
+}
+
+/* SEO block */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    word-wrap: normal;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 300px;
+}
+
+/* Rep Management block */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 300px;
+}
+
+/* SMM block */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 300px;
+}
+
+/* Main body image justifications */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Aside header text elements */
+.aside {
+    text-align: left;
+    font-size: 26px;
+}
+
+/* Aside box elements */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Aside "lead" paragraph elements */
+.benefit-lead {
+    margin-bottom: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Aside "brand" paragraph elements */
+.benefit-brand {
+    margin-bottom: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Aside "cost" paragraph elements */
+.benefit-cost {
+    margin-bottom: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Aside "lead" image elements */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+}
+
+/* Aside "brand" image elements */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+}
+
+/* Aside "cost" image elements */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
